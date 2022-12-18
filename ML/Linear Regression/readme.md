@@ -18,9 +18,9 @@
 5) Built Linear Regression Models using Linear Regression and Stats Model.
 
 3. Model Building.
- 1) GRE Score = 0.0421, TOEFL Score = 0.1326, Univ Rating = 0.0333, SOP = 0.0454, LOR = 0.0724, CGPA = 0.6937, Research = 0.0559 (Stats Model)
+1) GRE Score = 0.0421, TOEFL Score = 0.1326, Univ Rating = 0.0333, SOP = 0.0454, LOR = 0.0724, CGPA = 0.6937, Research = 0.0559 (Stats Model)
 2) GRE Score = 0.1559784, TOEFL Score = 0.16280074, Univ Rating = 0.01913293, SOP = 0.01725867, LOR = 0.09839838, CGPA=0.57518939, Research = 0.03759617 (Linear Regression Model)
-3)Research = 0.1693 , LOR = 0.4259 (VIF<5)
+3) 3)Research = 0.1693 , LOR = 0.4259 (VIF<5)
 4) GRE Score = 0.1882,TOEFL Score = 0.1753,CGPA = 0.7058 (RFE and Stats Model)
 
 4. Testing and assumptions:
@@ -35,12 +35,14 @@
     b)MAE = 0.1187050, RMSE = 0.151312, R2= 0.503  ,Adj R2 = 0.500 (Stats and VIF <5)
     c)MAE = 0.073729, RMSE = 0.1039165, R2 = 0.811 , Adj R2 = 0.809   (RFE)
 2)Train and Test Performance is checked.
+
 3)Comments:
 a)Linear Regression model gave a accuracy of 81.5 but P values are way above the limit and less coef values resulting multicollinearity.
 b) After using VIF<5 and elliminating collinearity the accuracy of the model decreased to 50.30 so more room for improvement.
 c) RFE model had a good accuracy of 81.1 slightly less than Linear Regression Model but had Pvalues least and Coef and highest making the effective model of choice.
 
 6.Actionable Insights and Recommendations:
+
 1)The predict values are as close as it can be as we are not counting outliers .
 2)From the RFE model considering it as the benchmark we can say that most important features are CGPA,GRE Score, TOEFL Score having high coef.
 3)LOR, SOP have are important but only when University rating is considered.
