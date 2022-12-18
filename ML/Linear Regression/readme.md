@@ -1,4 +1,5 @@
 1. EDA
+
 1) There are 500 rows and 9 columns
 2) Serial_No column is dropped from the data as it is not required for the analysis.
 3) Non graphical analysis done to find unique elements and their value counts.
@@ -11,6 +12,7 @@
 9) Most of the features have values that are Normally Distributed.
 
 2.Data Preprocessing.
+
 1) Checked for Duplicate Values = 0.
 2) There were no missing values.
 3) Outlier was known using Boxplot and treated using IQR method.
@@ -18,12 +20,14 @@
 5) Built Linear Regression Models using Linear Regression and Stats Model.
 
 3. Model Building.
+
 1) GRE Score = 0.0421, TOEFL Score = 0.1326, Univ Rating = 0.0333, SOP = 0.0454, LOR = 0.0724, CGPA = 0.6937, Research = 0.0559 (Stats Model)
 2) GRE Score = 0.1559784, TOEFL Score = 0.16280074, Univ Rating = 0.01913293, SOP = 0.01725867, LOR = 0.09839838, CGPA=0.57518939, Research = 0.03759617 (Linear Regression Model)
 3) 3)Research = 0.1693 , LOR = 0.4259 (VIF<5)
 4) GRE Score = 0.1882,TOEFL Score = 0.1753,CGPA = 0.7058 (RFE and Stats Model)
 
 4. Testing and assumptions:
+
 1. VIF<5 model was based on filtering columns with less than vif<5 and made a model using it.
 2.Standardization is done making the mean residuals nearly zero.
 3. As the values are randomly distributed it follows Homoscedasticity.
@@ -37,6 +41,7 @@
 2)Train and Test Performance is checked.
 
 3)Comments:
+
 a)Linear Regression model gave a accuracy of 81.5 but P values are way above the limit and less coef values resulting multicollinearity.
 b) After using VIF<5 and elliminating collinearity the accuracy of the model decreased to 50.30 so more room for improvement.
 c) RFE model had a good accuracy of 81.1 slightly less than Linear Regression Model but had Pvalues least and Coef and highest making the effective model of choice.
