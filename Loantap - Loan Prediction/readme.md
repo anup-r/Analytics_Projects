@@ -1,4 +1,4 @@
-LoanTap deploys formal credit to salaried individuals and businesses 4 main financial instruments:
+Fintech organization(NBFC) deploys formal credit to salaried individuals and businesses 4 main financial instruments:
 
 1) Personal Loan
 2) EMI Free Loan
