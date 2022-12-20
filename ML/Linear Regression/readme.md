@@ -1,4 +1,4 @@
-The following analysis will help Jamboree in understanding what factors are important in graduate admissions and how these factors are interrelated among themselves. 
+The following analysis will help leading institute for test prep and admissions counselling in understanding what factors are important in graduate admissions and how these factors are interrelated among themselves. 
 It will also help predict one's chances of admission given the rest of the variables.
 (This feature estimates the chances of graduate admission from an Indian perspective)
 
