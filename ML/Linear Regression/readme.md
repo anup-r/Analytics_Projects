@@ -23,4 +23,4 @@ Data Characterstics :
 
 8) Chance of Admit (ranging from 0 to 1)
 
-
+ 
