@@ -8,7 +8,9 @@ The team decides to investigate whether there are differences across the product
 
 
 
-The company collected the data on individuals who purchased a treadmill 
+The company collected the data on individuals who purchased a treadmill
+
+
 -----------------------------------
 Data Set Information:
 -----------------------------------
