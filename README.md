@@ -1,4 +1,4 @@
-<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=anupr-cloud&label=Profile%20views&color=0e75b6&style=flat" alt="anupr-cloud" /> </p> -->
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=anupr-cloud&label=Profile%20views&color=0e75b6&style=flat" alt="anupr-cloud" /> </p>
 
 # Data Analysis and Data Science Portfolio
 
